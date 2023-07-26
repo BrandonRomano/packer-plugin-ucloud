@@ -1,7 +1,7 @@
 The UCloud plugin is able to build customized images based on an existing base image for use in UHost Instance.
 
 ### Installation
-Packer v1.7.0 and later
+To install this plugin add this code into your Packer configuration and run [packer init](/packer/docs/commands/init)
 
 ```hcl
 packer {
@@ -14,6 +14,11 @@ packer {
 }
 ```
 
+Alternatively, you can use `packer plugins install` to manage installation of this plugin.
+
+```sh
+packer plugins install github.com/hashicorp/ucloud
+```
 ### Components
 
 #### Builders
