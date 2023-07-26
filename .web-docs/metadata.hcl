@@ -2,16 +2,16 @@
 # https://github.com/hashicorp/integration-template#metadata-configuration
 integration {
   name = "UCloud"
-  description = "TODO"
+  description = "The UCloud plugin is able to build customized images for use in UHost Instance."
   identifier = "packer/BrandonRomano/ucloud"
   component {
     type = "builder"
-    name = "UCloud Image Builder"
+    name = "UCloud Uhost"
     slug = "uhost"
   }
   component {
     type = "post-processor"
-    name = "UCloud Import Post-Processors"
+    name = "UCloud Import"
     slug = "import"
   }
 }
