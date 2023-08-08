@@ -3,7 +3,7 @@
 integration {
   name = "UCloud"
   description = "The UCloud plugin is able to build customized images for use in UHost Instance."
-  identifier = "packer/BrandonRomano/ucloud"
+  identifier = "packer/hashicorp/ucloud"
   component {
     type = "builder"
     name = "UCloud Uhost"
